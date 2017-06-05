@@ -43,7 +43,7 @@ a{
   font-weight: bold;
   color: #fff;
   border-radius: 50%;
-  background-color: #C0902E;
+  background-color: rgba(193, 144, 46, 0.62);
   position: absolute;
   z-index: 10;
   top: 180px;
@@ -63,6 +63,6 @@ span.btn-controls{
   height: 20px;
   cursor: pointer;
 }
-.btn-active{
+span.btn-active{
   background-color: #C0902E;
 }

@@ -27,7 +27,7 @@ var autoSlide = setInterval(function(){
     slideRight();
   });
   $(".btn-controls").click(function(e) {
-    // alert(e.target.getAttribute("id"));
-      slideRight();
+		e.target.classList.add("btn-active");
+		slideRight();
   })
 });
