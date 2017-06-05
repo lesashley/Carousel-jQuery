@@ -8,7 +8,6 @@ header img{
 header img:nth-child(1){
   width: 600px;
 }
-
 #carousel {
 		width: 25%;
 		overflow:hidden;
@@ -17,7 +16,7 @@ header img:nth-child(1){
     position: relative;
 }
 #carousel ul {
-		width: 1920px;
+		width: 2920px;
 		padding: 0;
 		margin: 0;
 }
