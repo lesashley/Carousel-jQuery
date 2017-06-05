@@ -26,4 +26,8 @@ var autoSlide = setInterval(function(){
     e.preventDefault();
     slideRight();
   });
+  $(".btn-controls").click(function(e) {
+    // alert(e.target.getAttribute("id"));
+      slideRight();
+  })
 });

@@ -54,13 +54,15 @@ a{
 #btn-before{
   left: 0;
 }
-span{
+span.btn-controls{
+  margin-top: 20px;
   display: inline-block;
   width: 20px;
   border-radius: 50%;
   background-color: gray;
   height: 20px;
+  cursor: pointer;
 }
-.span-active{
+.btn-active{
   background-color: #C0902E;
 }
